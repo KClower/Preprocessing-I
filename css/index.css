@@ -134,3 +134,51 @@ html,
 body {
   height: 100%;
 }
+html {
+  font-size: 62.5%;
+}
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 0;
+}
+.links a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+}
+.jumbotron {
+  background-color: #e9ecef;
+  border-radius: 5px;
+  padding: 0 25px;
+}
+.jumbotron img {
+  width: 300px;
+  margin-top: 50px;
+}
+.jumbotron h1 {
+  font-size: 6.2rem;
+}
+.jumbotron p {
+  font-size: 1.8rem;
+  margin: 10px 0 20px 0;
+}
+.jumbotron hr {
+  background-color: #dbdee1;
+  border: none;
+  padding: 1px;
+}
+.jumbotron button {
+  color: #e9ecef;
+  font-size: 1.6rem;
+  background-color: #808080;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
