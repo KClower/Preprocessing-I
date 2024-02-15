@@ -141,6 +141,14 @@ html {
   max-width: 800px;
   margin: 0 auto;
 }
+.header-lg {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.header {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
 .links {
   display: flex;
   justify-content: flex-end;
@@ -181,4 +189,23 @@ html {
   padding: 10px 10px;
   border-radius: 5px;
   margin-bottom: 50px;
+}
+.middle-section {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+.middle-section div {
+  width: 48%;
+}
+.middle-section h2 {
+  padding: 10px 0;
+}
+.middle-section p {
+  line-height: 1.5;
+}
+.middle-section li {
+  border: 1px solid #dbdee1;
+  padding: 10px 10px;
 }
