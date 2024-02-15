@@ -149,6 +149,9 @@ html {
   font-size: 2.2rem;
   font-weight: bold;
 }
+.text-bold {
+  font-weight: bold;
+}
 .links {
   display: flex;
   justify-content: flex-end;
@@ -208,4 +211,38 @@ html {
 .middle-section li {
   border: 1px solid #dbdee1;
   padding: 10px 10px;
+}
+.bottom-section {
+  font-size: 1.6rem;
+}
+.bottom-section h2 {
+  margin-bottom: 10px;
+}
+.bottom-section table {
+  width: 100%;
+}
+.bottom-section table .table-header {
+  font-weight: bold;
+  text-align: left;
+}
+.bottom-section table th {
+  padding: 10px 0 10px 10px;
+  border-top: 1px solid #dbdee1;
+}
+.bottom-section table td {
+  border-top: 2px solid #dbdee1;
+  padding: 10px 0 10px 10px;
+}
+.bottom-section table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+footer {
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: grey;
+  text-align: center;
+  font-size: 1.6rem;
+  color: white;
+  padding: 20px;
+  max-width: 850px;
 }
